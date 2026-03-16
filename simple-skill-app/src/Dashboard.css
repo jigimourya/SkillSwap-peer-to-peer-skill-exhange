@@ -1,0 +1,109 @@
+.dashboard-container {
+  background-color: #F9F5EB;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard-header {
+  background-color: #588157;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.logout-btn {
+  background-color: #D62828;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.dashboard-layout {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  background-color: #fff;
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #1D1D1D;
+  font-weight: 500;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #F9F5EB;
+}
+
+.dashboard-content h2 {
+  margin-bottom: 20px;
+}
+
+.dashboard-widgets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.btn-secondary {
+  background-color: #FFB703;
+  color: #1D1D1D;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  text-align: center;
+}

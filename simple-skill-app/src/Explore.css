@@ -1,0 +1,130 @@
+/* Explore.css */
+
+.explore-page {
+  font-family: Arial, sans-serif;
+  background: #f9f5eb;
+  min-height: 100vh;
+}
+
+/* Header */
+.explore-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-btn {
+  padding: 0.5rem 1rem;
+  background-color: #588157;
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  border-radius: 6px;
+}
+
+.signup-btn {
+  background-color: #ffb703;
+  color: #000;
+}
+
+/* Layout */
+.main-content {
+  display: flex;
+  padding: 2rem;
+}
+
+/* Sidebar Filters */
+.sidebar {
+  width: 220px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-right: 2rem;
+}
+
+.sidebar select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Content */
+.explore-title {
+  margin-bottom: 1.5rem;
+  color: #264653;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Cards */
+.recommend-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.avatar {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+
+.card-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.view-btn {
+  background-color: #ffb703;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  color: #000;
+}
+
+.msg-btn {
+  background-color: #588157;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
